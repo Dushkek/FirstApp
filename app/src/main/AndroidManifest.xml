@@ -19,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Homework2Activity" />
+        <activity android:name=".FlagsActivity" />
+        <activity android:name=".AnimationActivity" />
     </application>
 
 </manifest>
