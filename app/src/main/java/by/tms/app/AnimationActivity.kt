@@ -7,11 +7,12 @@ import kotlinx.android.synthetic.main.anim_activity.*
 
 class AnimationActivity : AppCompatActivity(){
 
-    private lateinit var catAnimation: AnimationDrawable
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.anim_activity)
+
+        var catAnimation: AnimationDrawable
 
         imageAnimation.apply {
             setBackgroundResource(R.drawable.cat)
