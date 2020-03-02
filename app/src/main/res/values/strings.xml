@@ -2,7 +2,9 @@
     <string name="app_name">App</string>
     <string name="title_activity_second">secondActivity</string>
     <string name="my_first_app">My first app</string>
-    <string name="homework1">Homework1</string>
-    <string name="thirdactivity">ThirdActivity</string>
-    <string name="fourthactivity">FourthActivity</string>
+    <string name="homework1">Homework№1</string>
+    <string name="flags">Flags</string>
+    <string name="animation">animation</string>
+    <string name="homework_2">Homework№2</string>
+    <string name="homework_3">Homework№3</string>
 </resources>

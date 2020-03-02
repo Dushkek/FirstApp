@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/Homework1"
+        android:id="@+id/Homework1Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/homework1"
@@ -15,18 +15,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Homework2Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/thirdactivity"
+        android:text="@string/homework_2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Homework1" />
+        app:layout_constraintTop_toBottomOf="@+id/Homework1Button" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Homework3Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fourthactivity"
+        android:text="@string/homework_3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/Homework2Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
