@@ -32,6 +32,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/colorWhite"
                 android:gravity="center"
                 android:text="@string/confirmed" />
 
@@ -40,12 +41,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textColor="@color/colorWhite"
                 android:text="@string/recovered" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/colorWhite"
                 android:gravity="center"
                 android:text="@string/dead" />
 
@@ -63,6 +66,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/colorWhite"
                 android:gravity="center"
                 android:text="@string/_0" />
 
@@ -71,6 +75,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:textColor="@color/colorWhite"
                 android:gravity="center"
                 android:text="@string/_0" />
 
@@ -78,6 +83,7 @@
                 android:id="@+id/deadCount"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/_0" />
