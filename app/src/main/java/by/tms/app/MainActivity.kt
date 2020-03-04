@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,Homework2Activity::class.java))
         }
 
-
+        Homework3Button.setOnClickListener {
+            startActivity(Intent(this,VirusActivity::class.java))
+        }
     }
 
 }
