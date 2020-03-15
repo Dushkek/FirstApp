@@ -29,4 +29,12 @@
         android:text="@string/homework_3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Homework2Button" />
+
+    <Button
+        android:id="@+id/Homework4Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Homework3Button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

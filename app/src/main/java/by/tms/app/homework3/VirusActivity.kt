@@ -1,10 +1,11 @@
-package by.tms.app
+package by.tms.app.homework3
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import by.tms.app.R
 import kotlinx.android.synthetic.main.virus_activity.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

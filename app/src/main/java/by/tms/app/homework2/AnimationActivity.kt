@@ -1,8 +1,9 @@
-package by.tms.app
+package by.tms.app.homework2
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import by.tms.app.R
 import kotlinx.android.synthetic.main.anim_activity.*
 
 class AnimationActivity : AppCompatActivity(){

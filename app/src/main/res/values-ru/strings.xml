@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">App</string>
     <string name="title_activity_second">secondActivity</string>
     <string name="my_first_app">My first app</string>
     <string name="homework1">Homework№1</string>
@@ -16,15 +15,15 @@
     <string name="_1_recovered">+ 1 Recovered</string>
     <string name="_1_dead">+ 1 Dead</string>
     <string name="refresh_data">Refresh data</string>
-    <string name="add_top">Add top</string>
-    <string name="add_bottom">Add bottom</string>
-    <string name="remove_bottom">Remove bottom</string>
-    <string name="remove_top">Remove top</string>
-    <string name="add_flower">Add Flower</string>
-    <string name="name">Name</string>
-    <string name="price">Price</string>
-    <string name="url">URL</string>
-    <string name="flower_added">Flower is added</string>
-    <string name="fill_data">Fill full data, please</string>
-
+    <string name="app_name">Fragments</string>
+    <string name="add_top">Добавить верхний</string>
+    <string name="add_bottom">Добавить нижний</string>
+    <string name="remove_bottom">Удалить нижний</string>
+    <string name="remove_top">Удалить верхний</string>
+    <string name="add_flower">Добавить цветок</string>
+    <string name="name">Имя</string>
+    <string name="price">Цена</string>
+    <string name="url">Ссылка</string>
+    <string name="flower_added">Цветок добавлен</string>
+    <string name="fill_data">Заполните все данные, пожалуйста</string>
 </resources>
