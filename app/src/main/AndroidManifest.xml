@@ -19,10 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Homework2Activity" />
-        <activity android:name=".FlagsActivity" />
-        <activity android:name=".AnimationActivity" />
-        <activity android:name=".VirusActivity"/>
+        <activity android:name=".homework2.Homework2Activity" />
+        <activity android:name=".homework2.FlagsActivity" />
+        <activity android:name=".homework2.AnimationActivity" />
+        <activity android:name=".homework3.VirusActivity"/>
+        <activity android:name=".homework4.activities.MainActivityFlower" />
+        <activity android:name=".homework4.activities.AddFlowerActivity" />
+        <activity android:name=".homework4.activities.FlowerInfoActivity" />
     </application>
 
 </manifest>

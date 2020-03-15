@@ -1,4 +1,4 @@
-package by.tms.app
+package by.tms.app.homework3
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.delay
