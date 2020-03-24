@@ -26,4 +26,6 @@
     <string name="url">Ссылка</string>
     <string name="flower_added">Цветок добавлен</string>
     <string name="fill_data">Заполните все данные, пожалуйста</string>
+    <string name="homework_5">ДЗ №5</string>
+    <string name="snacks">Закуски:</string>
 </resources>

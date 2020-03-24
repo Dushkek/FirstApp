@@ -26,5 +26,9 @@
     <string name="url">URL</string>
     <string name="flower_added">Flower is added</string>
     <string name="fill_data">Fill full data, please</string>
+    <string name="homework_5">Homework№5</string>
+    <string name="snacks">Snacks:</string>
+    <string name="portrait" translatable="false">portrait</string>
+    <string name="landscape" translatable="false">landscape</string>
 
 </resources>
