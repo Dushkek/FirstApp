@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(Intent(this, MainActivity::class.java))
             }
 
-            HomeworkButton5.id -> {
+            Homework5Button.id -> {
                 startActivity(Intent(this, by.tms.app.homework5.MainActivity::class.java))
             }
         }
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         Homework2Button.setOnClickListener(this)
         Homework3Button.setOnClickListener(this)
         Homework4Button.setOnClickListener(this)
-        HomeworkButton5.setOnClickListener(this)
+        Homework5Button.setOnClickListener(this)
 
     }
 
