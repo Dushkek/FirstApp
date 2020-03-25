@@ -4,13 +4,18 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentManager
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import by.tms.app.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.snack_item.view.*
 
-class Adapter(val list : ArrayList<Snack>, val recycler:RecyclerView, val supportFragmentManager: FragmentManager):RecyclerView.Adapter<Adapter.SnackViewHolder>() {
+const val NAME = "NAME"
+const val PRICE= "PRICE"
+const val DETAILS = "DETAILS"
+const val URL = "URL"
+
+class Adapter(private val list : ArrayList<Snack>, private val recycler:RecyclerView):RecyclerView.Adapter<Adapter.SnackViewHolder>() {
 
     class SnackViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
 
@@ -28,18 +33,29 @@ class Adapter(val list : ArrayList<Snack>, val recycler:RecyclerView, val suppor
 
         Picasso.get().load(list[position].imageUrl).into(myView.snackImage)
         myView.snackName.text = list[position].name
+        myView.snackPrice.text = list[position].price.toString()
 
         myView.setOnClickListener {
-            SnackCollection.instance.selectSnack(position)
 
             when(recycler.tag) {
                 recycler.context.getString(R.string.landscape) -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.landscapeFragment, Fragment()).commit()
+                    val model = ViewModelProvider(myView.context as MainActivity).get(SnackCollection::class.java)
+                    model.name = list[position].name
+                    model.price = (list[position].price.toString() + "  BYN")
+                    model.details = list[position].details
+                    model.imageUrl = list[position].imageUrl
+                    val fragmentSnack = Fragment()
+                    (holder.itemView.context as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.landscapeFragment, fragmentSnack).commit()
+
                 }
 
                 recycler.context.getString(R.string.portrait) -> {
-                    val intent = Intent(recycler.context,InfoFragment::class.java)
-                    recycler.context.startActivity(intent)
+                    val intent = Intent(myView.context, InfoActivity::class.java)
+                    intent.putExtra(NAME, list[position].name)
+                    intent.putExtra(PRICE, list[position].price.toString() + " BYN")
+                    intent.putExtra(DETAILS, list[position].details)
+                    intent.putExtra(URL, list[position].imageUrl)
+                    holder.itemView.context.startActivity(intent)
 
                 }
             }

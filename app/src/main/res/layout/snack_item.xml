@@ -9,7 +9,6 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_margin="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/snackName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -17,10 +16,20 @@
         android:id="@+id/snackName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/snackImage"
-        app:layout_constraintTop_toTopOf="@+id/snackImage"/>
+        app:layout_constraintStart_toEndOf="@id/snackImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/snackPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/snackImage"
+        app:layout_constraintTop_toBottomOf="@id/snackName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
