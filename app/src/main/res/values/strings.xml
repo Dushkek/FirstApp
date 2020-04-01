@@ -30,5 +30,7 @@
     <string name="snacks">Snacks:</string>
     <string name="portrait" translatable="false">portrait</string>
     <string name="landscape" translatable="false">landscape</string>
+    <string name="homework_6">Homework№6</string>
+    <string name="cryptocurrencies">Cryptocurrencies</string>
 
 </resources>
