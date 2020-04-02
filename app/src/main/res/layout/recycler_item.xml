@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="110dp"
+    android:layout_margin="10dp"
+    android:background="#FFFFFF"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageOfCoin"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/nameOfCrypto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageOfCoin"
+        android:layout_alignTop="@id/imageOfCoin"
+        />
+
+    <TextView
+        android:id="@+id/priceOfCrypto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageOfCoin"
+       android:layout_marginTop="35dp"
+        />
+
+    <TextView
+        android:id="@+id/percentChangeFor1Hour"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageOfCoin"
+        android:layout_alignBottom="@id/imageOfCoin"
+        />
+
+
+
+</RelativeLayout>

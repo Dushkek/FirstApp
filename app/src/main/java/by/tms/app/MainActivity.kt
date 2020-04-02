@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import by.tms.app.homework1.SecondActivity
 import by.tms.app.homework2.Homework2Activity
 import by.tms.app.homework3.VirusActivity
 import by.tms.app.homework4.activities.MainActivity
@@ -31,6 +32,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             Homework5Button.id -> {
                 startActivity(Intent(this, by.tms.app.homework5.MainActivity::class.java))
             }
+
+            Homework6Button.id -> {
+                startActivity(Intent(this, by.tms.app.homework6.MainActivity::class.java))
+            }
+
         }
     }
 
@@ -43,6 +49,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         Homework3Button.setOnClickListener(this)
         Homework4Button.setOnClickListener(this)
         Homework5Button.setOnClickListener(this)
+        Homework6Button.setOnClickListener(this)
 
     }
 

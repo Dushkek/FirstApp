@@ -1,7 +1,8 @@
-package by.tms.app
+package by.tms.app.homework1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import by.tms.app.R
 
 class SecondActivity : AppCompatActivity() {
 
